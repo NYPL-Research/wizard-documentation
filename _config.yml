@@ -1,0 +1,8 @@
+title: Wizard Documentation
+description: Documentation for the Wizard in-house workflow assistant app for DIS at NYPL.
+theme: just-the-docs
+
+url: https://minasystemsnypl.github.io/wizard-documentation/
+
+aux_links:
+  Template Repository: https://github.com/just-the-docs/just-the-docs-template
