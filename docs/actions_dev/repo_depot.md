@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Repo Depot
-parent: Actions
+parent: Actions for Devs
 nav_order: 3
 ---
 
