@@ -2,7 +2,7 @@
 layout: default
 title: Pixel Cluster
 parent: Actions
-nav_order: 2
+nav_order: 12
 ---
 
 # Pixel Cluster

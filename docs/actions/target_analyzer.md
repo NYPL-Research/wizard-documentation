@@ -2,7 +2,7 @@
 layout: default
 title: Target Analyzer
 parent: Actions
-nav_order: 2
+nav_order: 13
 ---
 
 # Target Analyzer
