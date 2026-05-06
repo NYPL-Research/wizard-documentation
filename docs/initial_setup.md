@@ -5,7 +5,7 @@ parent: Home
 nav_order: 3
 ---
 
-## 📦 Initial Setup (Internal)
+## 📦 Initial Setup
 
 ### 1. You will be prompted to enter credentials to initialize setup
   - Enter default password `W1z@rd` for setup user `Admin`
@@ -34,4 +34,11 @@ nav_order: 3
 }
 ```
 
-### 3. 
+### 3. New Admin User Setup
+- Once you are in the app and you have confirmed your config file is in the correct location on your local machine, and that your admin_sync is pointed to the correct directory on the server, you can create a new user.
+- Enter admin mode by clicking the user badge at the top left of Wizard.
+    - Enter the default credentials `Admin` and `W1z@rd`
+- Navigate to the bottom of Wizard and find User Admin
+    - Enter password again
+- Click Add Staff and then fill out the table, making sure to select Admin in the Role dropdown.
+    - Make sure your email is correct, as this will be key in recovering your password if you forget it.
