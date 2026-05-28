@@ -10,26 +10,26 @@ nav_order: 3
 ### 1. You will be prompted to enter credentials to initialize setup
   - Enter default password `W1z@rd` for setup user `Admin`
 ### 2. Config File
-  - Setup config file destinations for your workflow
+  - Setup config file destinations for your workflow by replacing the values <example> with real paths and values "example".
   - Config file looks like this:
   
 ```
 {
     "database": {
-        "host": "xx.xxx.xxx.xxx",
-        "user": "xxx",
-        "name": "xxx"
+        "host": "<ip_address>",
+        "user": "<username>",
+        "name": "<database_name>"
     },
     "network_mounts": {
-        "repo": "volumeMountPath",
-        "ice": "volumeMountPath",
-        "admin_sync": "pathToWizardAdminDirectory"
+        "repo": "<volume_mount_path>",
+        "ice": "<volume_mount_path>",
+        "admin_sync": "<path_to_admin_directory>"
     },
     "ice_paths": {
-        "rtg_dest": "/Volumes/xxx/rtg",
-        "pants_root": "/Volumes/xxx/xxx/Moved_to_RTG",
-        "ice_repo": "/Volumes/xxxx",
-        "ice_deliverables": "/Volumes/xxx/Deliverables"
+        "rtg_dest": "<path_to_rtg_folder>",
+        "pants_root": "<path_to_Moved_to_RTG_folder>",
+        "ice_repo": "<path_to_repo_volume>",
+        "ice_deliverables": "<path_to_deliverables_folder>"
     }
 }
 ```
@@ -42,3 +42,4 @@ nav_order: 3
     - Enter password again
 - Click Add Staff and then fill out the table, making sure to select Admin in the Role dropdown.
     - Make sure your email is correct, as this will be key in recovering your password if you forget it.
+- Make sure to delete the default Admin user, once your user is set up. 
